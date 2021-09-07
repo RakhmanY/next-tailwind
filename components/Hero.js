@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 export default function Hero() {
     return (
-        <div className="bg-hero h-[653px]">
+        <div className="bg-hero h-[712px]">
         <div className="container mx-auto">
           <Navbar />
           <div className="text-center mt-10">
