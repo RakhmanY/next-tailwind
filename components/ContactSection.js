@@ -1,3 +1,4 @@
+import Button from "./Button";
 import ContactItems from "./ContactItems";
 import Field from "./Field";
 import SectionParagraph from "./SectionParagraph";
@@ -5,7 +6,7 @@ import SectionTitle from "./SectionTitle";
 
 export default function Contact() {
     return (
-        <section className="container mx-auto bg-yellow-300">
+        <section className="container mx-auto bg-gray-300" id="contacts">
             <div className="bg-gray-50 flex">
                 <div className="w-6/12 border-r border-gray-200">
                     <div className="py-16 px-20">
@@ -56,10 +57,14 @@ export default function Contact() {
                             type="text"
                         />
                         <Field
-                            label="Subject"
-                            name="subject"
+                            label="Message"
+                            name="message"
                             type="textarea"
+                            className="h-40"
                         />
+                        <div className="text-right">
+                            <Button variant="black">Send</Button>
+                        </div>
                     </form>
                 </div>
             </div>
