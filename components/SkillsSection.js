@@ -11,7 +11,7 @@ export default function SectionSkills() {
 
                 <div className="flex -mx-4 mt-20 flex-wrap">
                     <div className="w-4/12 px-4 pb-8">
-                        <SkillCards 
+                        <SkillCards
                             name="Javascript"
                             level="Lanjutan"
                             image="/javascript.svg"
@@ -19,7 +19,7 @@ export default function SectionSkills() {
                         />
                     </div>
                     <div className="w-4/12 px-4 pb-8">
-                        <SkillCards 
+                        <SkillCards
                             name="Nextjs"
                             level="Lanjutan"
                             image="/nextjs.svg"
@@ -27,7 +27,7 @@ export default function SectionSkills() {
                         />
                     </div>
                     <div className="w-4/12 px-4 pb-8">
-                        <SkillCards 
+                        <SkillCards
                             name="Nextjs"
                             level="Lanjutan"
                             image="/nextjs-icon.svg"
@@ -35,7 +35,7 @@ export default function SectionSkills() {
                         />
                     </div>
                     <div className="w-4/12 px-4 pb-8">
-                        <SkillCards 
+                        <SkillCards
                             name="NodeJS"
                             level="Lanjutan"
                             image="/nodejs-icon.svg"
@@ -43,7 +43,7 @@ export default function SectionSkills() {
                         />
                     </div>
                     <div className="w-4/12 px-4 pb-8">
-                        <SkillCards 
+                        <SkillCards
                             name="NodeJS"
                             level="Lanjutan"
                             image="/nodejs.svg"
@@ -51,7 +51,7 @@ export default function SectionSkills() {
                         />
                     </div>
                     <div className="w-4/12 px-4 pb-8">
-                        <SkillCards 
+                        <SkillCards
                             name="Discord"
                             level="Lanjutan"
                             image="/discord-icon.svg"
@@ -59,7 +59,7 @@ export default function SectionSkills() {
                         />
                     </div>
                     <div className="w-4/12 px-4">
-                        <SkillCards 
+                        <SkillCards
                             name="Sumblime"
                             level="Lanjutan"
                             image="/sublimetext-icon.svg"
@@ -67,7 +67,7 @@ export default function SectionSkills() {
                         />
                     </div>
                     <div className="w-4/12 px-4">
-                        <SkillCards 
+                        <SkillCards
                             name="Nextjs"
                             level="Lanjutan"
                             image="/nextjs-icon.svg"
@@ -75,7 +75,7 @@ export default function SectionSkills() {
                         />
                     </div>
                     <div className="w-4/12 px-4">
-                        <SkillCards 
+                        <SkillCards
                             name="Javascript"
                             level="Lanjutan"
                             image="/java.svg"

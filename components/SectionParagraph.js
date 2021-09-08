@@ -1,5 +1,5 @@
-export default function SectionParagraph({ children }) {
+export default function SectionParagraph({ left, children }) {
     return (
-        <p className="text-lg text-gray-600 text-center">{children}</p>
+        <p className={`text-lg text-gray-600 ${!left ? " text-center" : ""}`}>{children}</p>
     );
 }

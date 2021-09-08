@@ -11,7 +11,7 @@ module.exports = {
         mono: ["IBM Plex Mono", "ui-monospace"]
       },
       color: {
-        skills: "#FCE72D",
+        primarygray: "#F7F7FB",
         yellow: {
           "50": "#ff100109",
           "100": "#fffdf0",
@@ -39,6 +39,6 @@ module.exports = {
       };
 
       addUtilities(utilities);
-    }) 
+    })
   ],
 }
