@@ -34,7 +34,9 @@ module.exports = {
     plugin(function ({ addUtilities }) {
       const utilities = {
         ".bg-hero": {
-          "background-image": "url(/hero.png)"
+          "background-image": "url(/hero.png)",
+          "background-size": "100%",
+          "background-position": "bottom"
         }
       };
 
